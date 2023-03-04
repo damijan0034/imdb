@@ -2,9 +2,9 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
-      <h1 className="text-2xl font-medium text-amber-600">About Page</h1>
-      <p>
+    <div className="  max-w-6xl mx-auto space-y-4">
+      <h1 className=" text-2xl font-medium text-amber-600">About Page</h1>
+      <p className="pl-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -20,7 +20,7 @@ export default function page() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-      <p>
+      <p className="pl-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
