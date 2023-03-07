@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import Card from "./Card";
 
-export default function Results({results}) {
+export default function Results({ results }) {
   return (
-    <div>
-        {results.map((result,key)=>(
-            <div key={result.id}>
-                    {result.original_title}
-            </div>
-))}
+    <div className="sm:grid sm:grid-cols-2 mx-auto p-4 max-w-6xl">
+      {results.map((result, key) => (
+        <Card key={result.id} result={result} />
+      ))}
     </div>
-  )
+  );
 }
