@@ -23,7 +23,7 @@ export default function Card({result}) {
           alt="image is not available"
         ></Image>
         <div className='p-2'>
-            <p className='text-md'>{result.overview}</p>
+            <p className='text-md line-clamp-3'>{result.overview}</p>
             <h2 className='text-lg font-bold'>{result.title || result.name}</h2>
             <p className='flex items-center'>{result.release_date || result.first_aire_date}
             <FiThumbsUp className='h-5 ml-1 mr-2' />{result.vote_count }
