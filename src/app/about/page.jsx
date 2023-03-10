@@ -3,7 +3,7 @@ import React from "react";
 export default function page() {
   return (
     <div className="  max-w-6xl mx-auto space-y-4">
-      <h1 className=" text-2xl font-medium text-amber-600">About Page</h1>
+      <h1 className=" text-2xl font-medium text-amber-600">Bogdan Kostic Emilija Kostic</h1>
       <p className="pl-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
