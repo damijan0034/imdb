@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className='flex justify-between items-center '>
         <div className='flex mx-5'>
-          <MenuItem Icon={AiFillHome
+          <MenuItem  Icon={AiFillHome
           }  title="HOME" adress="/" />
           <MenuItem title="ABOUT" adress="/about" Icon={BsInfoLg} />
         </div>
